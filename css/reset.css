@@ -1,0 +1,12 @@
+/* reset.css */
+
+* {
+  box-sizing: border-box;
+  font-family: var(--unnamed-font-family-inter);
+  color: var(--white);
+}
+
+html {
+  background-color: var(--black);
+  scroll-behavior: smooth;
+}
