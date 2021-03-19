@@ -1,0 +1,58 @@
+/* style.css */
+@import url("tailwind.css");
+
+@import url("variables.css");
+@import url("reset.css");
+
+.text-pink {
+  color: var(--pink);
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.text-green {
+  color: var(--green);
+}
+
+.hover-animation {
+  transition: all 500ms ease-in-out;
+}
+
+.hover-border::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  margin-top: 15px;
+  transition: all 500ms ease-in-out;
+}
+
+.hover-border__pink::after {
+  background-color: var(--pink);
+}
+
+.hover-border__blue::after {
+  background-color: var(--blue);
+}
+
+.hover-border__green::after {
+  background-color: var(--green);
+}
+
+.hover-border:hover::after {
+  width: 100%;
+}
+
+.hover-opacity {
+  opacity: 0;
+}
+
+.hover-opacity:hover {
+  opacity: 100;
+}
+
+.hover-menu:hover {
+  z-index: 60;
+}
