@@ -8,8 +8,13 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body class="overflow-x-hidden">
-    <header id="header" class="fixed w-full text-2xl top-0 z-100">
-      <div class="flex justify-between lg:mt-16 md:mt-16 md:m-10">
+    <header
+      id="header"
+      class="fixed w-11/12 lg:w-full text-2xl md:top-0 top-2 z-100"
+    >
+      <div
+        class="flex justify-between lg:mt-16 lg:m-12 md:mt-16 md:ml-10 ml-5 mt-5"
+      >
         <div><a href="homepage.html">BigTone</a></div>
         <div class="cursor-pointer">
           <span id="menu" onclick="openMenu()">Menu</span>
@@ -20,24 +25,28 @@
     <main>
       <!-- #region menu -->
       <section id="menuContent" class="hidden">
-        <div class="m-auto relative lg:w-1/3 md:w-3/5">
+        <div class="m-auto relative lg:w-1/3 md:w-3/5 items-center">
           <div
-            class="absolute lg:leading-tight md:leading-relaxed lg:text-9xl md:text-8xl text-big lg:mt-10 md:mt-0"
+            class="absolute lg:leading-tight md:leading-relaxed lg:text-9xl md:text-8xl text-big lg:mt-10 md:mt-0 mt-10 leading-relaxed text-6xl ml-12 md:ml-0"
           >
-            <div class="lg:z-30 md:z-50 relative hover-menu">
+            <div class="lg:z-30 md:z-50 z-50 relative hover-menu">
               <a class="" href="">Shop</a>
             </div>
-            <div class="lg:z-30 md:z-50 relative hover-menu">
+            <div class="lg:z-30 md:z-50 z-50 relative hover-menu">
               <a class="" href="">Our Story</a>
             </div>
-            <div class="lg:z-30 md:z-50 relative hover-menu">
+            <div class="lg:z-30 md:z-50 z-50 relative hover-menu w-full">
               <a class="" href="">Lookbook</a>
             </div>
           </div>
         </div>
         <div class="flex mt-20">
-          <div class="z-30 m-auto">
-            <img class="w-full" src="asset/img/menu-img.png" alt="" />
+          <div class="m-auto z-30">
+            <img
+              class="w-4/6 md:w-min m-auto"
+              src="asset/img/menu-img.png"
+              alt=""
+            />
           </div>
         </div>
         <div
@@ -45,7 +54,7 @@
         >
           <div class="leading-relaxed">
             <div class="lg:-ml-5">Follow</div>
-            <div class="lg:ml-32 md:ml-10">BigTone on</div>
+            <div class="lg:ml-32 ml-10">BigTone on</div>
             <div>
               <a href="" class="cursor-pointer">Fb</a>
               <a href="" class="cursor-pointer">Tw</a>
@@ -59,95 +68,125 @@
       <section id="content">
         <div class="flex m-auto">
           <div
-            class="absolute lg:text-9xl md:text-7xl font-extralight mt-96 pt-24 ml-14 md:pt-28"
+            class="absolute lg:text-9xl md:text-7xl font-extralight mt-96 lg:pt-24 lg:ml-14 md:pt-28 text-6xl ml-5 pt-16"
           >
             <div>
               Shapes <br />
               + Movements
             </div>
           </div>
-          <div class="m-auto md:mt-28">
-            <img class="w-full" src="asset/img/mission-img.png" alt="" />
+          <div class="m-auto w-full md:mt-28 mt-20">
+            <img
+              class="m-auto w-full md:w-min"
+              src="asset/img/mission-img.png"
+              alt=""
+            />
           </div>
         </div>
 
-        <div class="w-full lg:ml-10 md:ml-1 lg:pl-8 md:pl-0 mt-64">
+        <div
+          class="w-full lg:ml-10 md:ml-1 lg:pl-8 md:pl-0 lg:mt-64 md:mt-64 mt-36"
+        >
           <div
-            class="mx-auto lg:text-5xl md:text-4xl lg:w-1/2 md:w-4/5 font-light"
+            class="mx-auto text-3xl lg:text-5xl md:text-4xl lg:w-1/2 md:w-4/5 font-light w-11/12"
           >
             Earthy tones, knitted patterns and metallic accents are what
             characterizes this Autumn Winter collection.
           </div>
         </div>
 
-        <div class="flex mt-64 justify-evenly lg:text-8xl md:text-6xl">
+        <div
+          class="flex mt-36 lg:mt-64 md:mt-64 justify-evenly flex-col lg:flex-row md:flex-row lg:text-8xl md:text-6xl text-center text-6xl"
+        >
           <p
-            class="relative text-pink cursor-pointer hover-border hover-border__pink"
+            class="relative text-pink cursor-pointer hover-border hover-border__pink mb-10 lg:mb-0 md:mb-0"
           >
             Ladies
-            <sup class="text-xs text-pink top-0 right-0 absolute">54</sup>
+            <sup class="text-xs text-pink top-0 lg:right-0 md:right-0 absolute"
+              >54</sup
+            >
           </p>
           <p
-            class="relative text-blue cursor-pointer hover-border hover-border__blue"
+            class="relative text-blue cursor-pointer hover-border hover-border__blue mb-10 lg:mb-0 md:mb-0"
           >
             Men
-            <sup class="text-xs text-blue top-0 right-0 absolute"> 105 </sup>
+            <sup class="text-xs text-blue top-0 lg:right-0 md:right-0 absolute">
+              105
+            </sup>
           </p>
           <p
-            class="relative text-green cursor-pointer hover-border hover-border__green"
+            class="relative text-green cursor-pointer hover-border hover-border__green mb-10 lg:mb-0 md:mb-0"
           >
             Children
-            <sup class="text-green text-xs top-0 right-0 absolute">124</sup>
+            <sup class="text-green text-xs top-0 lg:right-0 md:right-0 absolute"
+              >124</sup
+            >
           </p>
         </div>
 
         <!-- #region image -->
-        <div class="mt-28 ml-14">
-          <div class="flex items-center">
-            <div class="mr-4">
-              <img src="asset/img/Item - Hovered.png" alt="" />
+        <div class="mt-28 lg:ml-14 md:m-14">
+          <div class="flex flex-col lg:flex-row md:flex-row items-center">
+            <div class="m-auto lg:mr-4 md:mr-4">
+              <img
+                class="w-3/6 m-auto md:m-0 md:min-w-full"
+                src="asset/img/Item - Hovered.png"
+                alt=""
+              />
             </div>
 
             <!-- #region img-02 -->
-            <div class="relative mr-4">
-              <img src="asset/img/img-02.png" alt="" />
+            <div class="relative lg:mr-4 md:mr-4 mt-10 md:mt-0">
+              <img
+                class="w-3/6 m-auto md:m-0 md:min-w-full"
+                src="asset/img/img-02.png"
+                alt=""
+              />
               <div
-                class="absolute text-5xl block -bottom-9 opacity-0 hover:opacity-100 hover-animation md:hidden"
+                class="absolute md:text-5xl text-2xl lg:block block -bottom-3 md:-bottom-9 md:opacity-0 md:hover:opacity-100 hover-animation md:hidden cursor-default"
               >
-                <div class="pl-5">
-                  <div class="text-sm font-extralight mb-2">18€</div>
-                  <div class="pl-2 font-regular mb-3">T-Shirt</div>
-                  <div class="pl-2 font-regular mb-3">Unicolors</div>
+                <div class="md:pl-5 pl-28">
+                  <div class="text-sm font-extralight md:mb-2">18€</div>
+                  <div class="pl-2 font-regular md:mb-3">T-Shirt</div>
+                  <div class="pl-2 font-regular md:mb-3">Unicolors</div>
                 </div>
               </div>
             </div>
             <!-- #endregion -->
 
             <!-- #region img-03 -->
-            <div class="relative mr-4">
-              <img src="asset/img/img-03.png" alt="" />
+            <div class="relative lg:mr-4 md:mr-4 mt-10 md:mt-0">
+              <img
+                class="w-3/6 m-auto md:m-0 md:min-w-full"
+                src="asset/img/img-03.png"
+                alt=""
+              />
               <div
-                class="absolute -bottom-9 text-5xl block opacity-0 hover:opacity-100 hover-animation md:hidden"
+                class="absolute -bottom-3 md:-bottom-9 md:text-5xl text-2xl block lg:block md:opacity-0 md:hover:opacity-100 hover-animation md:hidden cursor-default"
               >
-                <div class="pl-5">
-                  <div class="text-sm font-extralight mb-2">34€</div>
-                  <div class="pl-2 font-regular mb-3">Soft</div>
-                  <div class="pl-2 font-regular mb-3">Dress</div>
+                <div class="md:pl-5 pl-28">
+                  <div class="text-sm font-extralight md:mb-2">34€</div>
+                  <div class="pl-2 font-regular md:mb-3">Soft</div>
+                  <div class="pl-2 font-regular md:mb-3">Dress</div>
                 </div>
               </div>
             </div>
             <!-- #endregion -->
 
             <!-- #region img-04 -->
-            <div class="relative">
-              <img src="asset/img/img-04.png" alt="" />
+            <div class="relative mt-10 md:mt-0">
+              <img
+                class="w-3/6 m-auto md:m-0 md:min-w-full"
+                src="asset/img/img-04.png"
+                alt=""
+              />
               <div
-                class="absolute -bottom-9 text-5xl block opacity-0 hover-animation hover:opacity-100 md:hidden"
+                class="absolute -bottom-3 md:-bottom-9 md:text-5xl text-2xl block lg:block md:opacity-0 hover-animation md:hover:opacity-100 md:hidden cursor-default"
               >
-                <div class="pl-5">
-                  <div class="text-sm font-extralight mb-2">76€</div>
-                  <div class="pl-2 font-regular mb-3">Nike</div>
-                  <div class="pl-2 font-regular mb-3">Daily</div>
+                <div class="md:pl-5 pl-28">
+                  <div class="text-sm font-extralight md:mb-2">76€</div>
+                  <div class="pl-2 font-regular md:mb-3">Nike</div>
+                  <div class="pl-2 font-regular md:mb-3">Daily</div>
                 </div>
               </div>
             </div>
@@ -156,12 +195,12 @@
           <!-- #endregion -->
         </div>
         <!-- #region video -->
-        <div class="mt-64">
+        <div class="lg:mt-64 md:mt-64 mt-32">
           <div
             id="text"
-            class="absolute block lg:ml-72 lg:mt-72 md:ml-36 md:mt-36"
+            class="absolute block lg:ml-72 lg:mt-72 md:ml-36 md:mt-36 mt-20 ml-24"
           >
-            <div class="lg:text-9xl md:text-7xl font-light">
+            <div class="lg:text-9xl md:text-7xl text-4xl font-light">
               Our <br />
               Shapes
             </div>
@@ -175,7 +214,7 @@
           </div>
           <div
             id="play"
-            class="absolute block flex lg:ml-96 lg:pl-72 lg:pt-6 lg:mt-80 md:mt-40 md:pt-2 md:ml-80 items-center cursor-pointer"
+            class="absolute block flex ml-44 mt-20 lg:ml-96 lg:pl-72 lg:pt-6 lg:mt-80 md:mt-40 md:pt-2 md:ml-80 items-center cursor-pointer"
             onclick="showVideo()"
           >
             <img class="mr-5" src="asset/img/icon-play.png" />Play
@@ -189,11 +228,11 @@
     <!-- #region footer -->
     <footer id="footer">
       <div
-        class="flex justify-between items-center lg:m-40 md:m-20 text-lg font-light"
+        class="flex justify-between items-center lg:m-40 md:m-20 md:text-lg lg:md:text-lg font-light mt-20 mb-20 mr-5 ml-5 text-sm"
       >
         <div class="lg:ml-52 md:ml-0">
           <div>Follow</div>
-          <div class="ml-16">BigTone on</div>
+          <div class="lg:ml-16 md:ml-16 ml-10">BigTone on</div>
           <div>
             <a href="" class="cursor-pointer">Fb</a>
             <a href="" class="cursor-pointer">Tw</a>
@@ -211,7 +250,7 @@
     <!-- #region Cookie -->
     <div
       id="cookie"
-      class="w-96 fixed bottom-0 right-0 p-8 text-xs z-100 text-gray-500 bg-gray-900"
+      class="w-96 fixed bottom-0 right-0 p-8 text-xs z-100 text-gray-500 bg-gray-900 hidden md:inherit lg:inherit"
     >
       To provide the best possible experience, our site uses both necessary and
       optionnal cookies to store information. By continuing to browse you are
