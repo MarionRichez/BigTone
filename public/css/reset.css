@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: var(--unnamed-font-family-inter);
+  font-family: var(--unnamed-font-family-inter), sans-serif;
   color: var(--white);
 }
 
