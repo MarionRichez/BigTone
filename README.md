@@ -1,3 +1,3 @@
-![BigTone](https://raw.githubusercontent.com/MarionRichez/test-BigTone/main/BigTone.png)
+![BigTone](https://github.com/MarionRichez/test-BigTone/blob/main/public/img/bigtone.png)
 # BigTone
  
