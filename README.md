@@ -2,5 +2,5 @@
 
 # BigTone
 
-[Live Demo](https://bigtone.marion-richez.be/)
+[Live Demo](https://bigtone-21594.web.app/)
  
